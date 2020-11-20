@@ -1,2 +1,2 @@
 # Github-cloned-repo
-created a Github repositories clone using the Github Graphql API for Buycoins challenge 
+created my Github repository profile clone using the Github <a href="https://developer.github.com/v4/explorer/">graphQl API</a> for Buycoins challenge 
