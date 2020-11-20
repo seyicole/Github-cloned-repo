@@ -94,12 +94,25 @@
     #myLinks{
       display: none;
     }
+
+    .repo-num{
+      display: flex;
+      font-size: 14px;
+    }
+
+    .repo-number{
+      font-weight: 600;
+      padding-right: 4px;
+    }
   
   @media screen and (max-width: 600px) {
     .topnav{
       display: none;
     }
 
+    .repo-num{
+      display: none;
+    }
     .mobile-nav{
       display: flex;
       justify-content: space-between;

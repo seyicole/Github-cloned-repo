@@ -69,6 +69,7 @@ const profileData =  ({
   login,
  avatarUrl, 
  bio, 
+ repositories,
  followers, 
  following, 
  url, 
@@ -76,12 +77,13 @@ const profileData =  ({
  websiteUrl
  }) => {
  
-
+let repoNumber = repositories.nodes.length
 let ffers =followers.totalCount
 let ffing = following.totalCount
 let starredRepos = starredRepositories.totalCount
 
-document.querySelector('.profile-avi').src = avatarUrl
+document.querySelector('.repo-number').innerHTML = repoNumber;
+document.querySelector('.profile-avi').src = avatarUrl;
 document.querySelector('.bio-avatar').src = avatarUrl;
 document.querySelector('.mobile-avi').src = avatarUrl
 document.querySelector('.bio-name').innerHTML = name;
@@ -100,6 +102,7 @@ document.getElementById("web").href = websiteUrl;
 
  const repoData = ({repositories}) => {
   const main = document.getElementById('repo-list')
+   
     let repoList = repositories.nodes
     repoList.map((repo) => {
       let repoList = `<div class="repos"><div>
