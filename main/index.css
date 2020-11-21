@@ -568,7 +568,7 @@
 
   .star-repo button{
     border-radius: 6px;
-    border: 1px solid var(--gray);
+    border: 1px solid gray;
     display: flex;
     align-items: center;
     height: 30px;
