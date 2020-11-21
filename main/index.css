@@ -573,7 +573,7 @@
     align-items: center;
     height: 30px;
     padding: 0px 10px;
-    /* color: gray; */
+    background-color: #fff;
   }
 
   @media (max-width: 800px) {
