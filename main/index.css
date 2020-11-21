@@ -568,11 +568,11 @@
 
   .star-repo button{
     border-radius: 6px;
-    border: 1px solid #80808073;
+    border: 1px solid #fff;
     display: flex;
     align-items: center;
     height: 30px;
-    padding: 0px 5px;
+    padding: 0px 10px;
     /* color: gray; */
   }
 
@@ -604,6 +604,11 @@
   
     .sum-list p{
       padding: 0px 0px;
+      font-size: 14px;
+    }
+
+    .sum-list p > svg{
+      display: none;
     }
   }
 
